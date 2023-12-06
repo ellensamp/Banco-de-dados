@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Mudar Senha</title>
+</head>
+<body>
+    <div class="borda">
+        <div class="centro">
+            <h2>Alterar Senha</h2>
+
+            <form action="mudarSenha.jsp" method="post">
+                <label for="senhaAntiga">Senha Antiga:</label>
+                <input type="password" id="senhaAntiga" name="senhaAntiga" required>
+                <br>
+
+                <label for="novaSenha">Nova Senha:</label>
+                <input type="password" id="novaSenha" name="novaSenha" required>
+                <br>
+
+                <input type="submit" value="Alterar Senha">
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

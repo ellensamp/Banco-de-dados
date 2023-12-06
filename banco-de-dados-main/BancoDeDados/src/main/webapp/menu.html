@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
+    <script>
+        function apagarUsuario() {
+            window.location.href = "confirmarExclusao.jsp";
+        }
+        
+        function editarUsuario(){
+			window.location.href = "novaSenha.html";
+		}
+    </script>
+</head>
+<body>
+    <div class="borda">
+        <div class="centro">
+            <h2>Menu</h2>
+            <button type="button" onclick="editarUsuario()">Editar Usuário</button>
+            <button type="button" onclick="apagarUsuario()">Apagar Usuário</button>
+            <h2>        </h2>
+        </div>
+    </div>
+</body>
+</html>
